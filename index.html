@@ -191,7 +191,12 @@
   /* ── Doc Cards ── */
   .doc-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .doc-col {
+    display: flex;
+    flex-direction: column;
     gap: 16px;
   }
 
@@ -340,40 +345,46 @@
   </div>
   <div class="doc-grid">
 
-    <a class="doc-card c1" href="https://drive.google.com/drive/folders/1Dnolq1wmOhDoDUf-qn1oVAUhy-NKw3S5?usp=sharing" target="_blank" rel="noopener">
-      <div class="doc-icon">📸</div>
-      <h3>활동 모습</h3>
-    </a>
+    <!-- 1열: 교수학습과정안 -->
+    <div class="doc-col">
+      <a class="doc-card c2" href="https://drive.google.com/file/d/1Ym-awEh7etxqQ26Rj8vgMpPUHH4oqeCu/view?usp=sharing" target="_blank" rel="noopener">
+        <div class="doc-icon">📄</div>
+        <h3>7차시<br>교수학습과정안</h3>
+      </a>
 
-    <a class="doc-card" style="border-top: 4px solid #3dba7a; background: linear-gradient(135deg, #f0faf5 0%, #e0f5ff 100%);" href="https://drive.google.com/drive/folders/1V7olxTaOt2Xan9HmakzMK76Z2k29l2jR?usp=sharing" target="_blank" rel="noopener">
-      <div class="doc-icon">🤖</div>
-      <h3>바이브코딩<br>프롬프트</h3>
-    </a>
+      <a class="doc-card c3" href="https://drive.google.com/file/d/1PFEJMV4SSOpPh7mulax3A5HBDwtq5CxS/view?usp=sharing" target="_blank" rel="noopener">
+        <div class="doc-icon">📄</div>
+        <h3>8차시<br>교수학습과정안</h3>
+      </a>
 
-    <a class="doc-card c2" href="https://drive.google.com/file/d/1Ym-awEh7etxqQ26Rj8vgMpPUHH4oqeCu/view?usp=sharing" target="_blank" rel="noopener">
-      <div class="doc-icon">📄</div>
-      <h3>7차시<br>교수학습과정안</h3>
-    </a>
+      <a class="doc-card c4" href="https://drive.google.com/file/d/1rU2Fk2Geb03uMDA0-QqciyThNhdOFuOc/view?usp=sharing" target="_blank" rel="noopener">
+        <div class="doc-icon">📄</div>
+        <h3>9–10차시<br>교수학습과정안</h3>
+      </a>
+    </div>
 
-    <a class="doc-card c3" href="https://drive.google.com/file/d/1PFEJMV4SSOpPh7mulax3A5HBDwtq5CxS/view?usp=sharing" target="_blank" rel="noopener">
-      <div class="doc-icon">📄</div>
-      <h3>8차시<br>교수학습과정안</h3>
-    </a>
+    <!-- 2열: 나머지 -->
+    <div class="doc-col">
+      <a class="doc-card c1" href="https://drive.google.com/drive/folders/1Dnolq1wmOhDoDUf-qn1oVAUhy-NKw3S5?usp=sharing" target="_blank" rel="noopener">
+        <div class="doc-icon">📸</div>
+        <h3>활동 모습</h3>
+      </a>
 
-    <a class="doc-card c4" href="https://drive.google.com/file/d/1rU2Fk2Geb03uMDA0-QqciyThNhdOFuOc/view?usp=sharing" target="_blank" rel="noopener">
-      <div class="doc-icon">📄</div>
-      <h3>9–10차시<br>교수학습과정안</h3>
-    </a>
+      <a class="doc-card" style="border-top: 4px solid #3dba7a; background: linear-gradient(135deg, #f0faf5 0%, #e0f5ff 100%);" href="https://drive.google.com/drive/folders/1V7olxTaOt2Xan9HmakzMK76Z2k29l2jR?usp=sharing" target="_blank" rel="noopener">
+        <div class="doc-icon">🤖</div>
+        <h3>바이브코딩<br>프롬프트</h3>
+      </a>
 
-    <a class="doc-card c5" href="https://drive.google.com/file/d/1pNgXQINSYvNeFw-tHkNR6clD_ltuIbgW/view?usp=sharing" target="_blank" rel="noopener">
-      <div class="doc-icon">📝</div>
-      <h3>단원 평가지</h3>
-    </a>
+      <a class="doc-card c5" href="https://drive.google.com/file/d/1pNgXQINSYvNeFw-tHkNR6clD_ltuIbgW/view?usp=sharing" target="_blank" rel="noopener">
+        <div class="doc-icon">📝</div>
+        <h3>단원 평가지</h3>
+      </a>
 
-    <a class="doc-card c3" href="https://drive.google.com/file/d/17qX9agZ8aa9QU_5TTvpCVgCQQ2sMFvpb/view?usp=sharing" target="_blank" rel="noopener">
-      <div class="doc-icon">📋</div>
-      <h3>사후 설문지</h3>
-    </a>
+      <a class="doc-card c3" href="https://drive.google.com/file/d/17qX9agZ8aa9QU_5TTvpCVgCQQ2sMFvpb/view?usp=sharing" target="_blank" rel="noopener">
+        <div class="doc-icon">📋</div>
+        <h3>사후 설문지</h3>
+      </a>
+    </div>
 
   </div>
 
